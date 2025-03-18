@@ -51,4 +51,4 @@ jobs:
         run: npm run build
 
       - name: Run Tests
-        run: composer test
+        run: ./vendor/bin/pest
